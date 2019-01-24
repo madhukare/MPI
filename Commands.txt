@@ -1,0 +1,41 @@
+Initially we login to kraken.tek.bth.se
+
+/*******************************************************************/
+
+Task 1 : Blocked (2d) Matrix Multiplication 
+
+Compile the code:
+mpicc -o mm mm.c
+
+Execute:
+For 1 node
+mpirun -n 1 ./mm
+
+For 2 nodes
+mpirun -n 2 ./mm
+
+For 4 nodes
+mpirun -n 4 ./mm
+
+For 8 nodes
+mpirun -n 8 ./mm
+
+/********************************************************************/
+
+Task 2 : Laplace Approximation
+
+Compile the code:
+mpicc -o lap lap.c
+
+Execute:
+For 1 node
+mpirun -n 1 ./lap
+
+For 2 nodes
+mpirun -n 2 ./lap
+
+For 4 nodes
+mpirun -n 4 ./lap
+
+For 8 nodes
+mpirun -n 8 ./lap
